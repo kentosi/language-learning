@@ -29,3 +29,17 @@ prepare-cards import-before.txt > import-after.txt
 
 This new `import-after.txt` can be imported easily into Anki.
 
+
+## Helpful
+
+1. Cmd+b to mark word as bold in Sublime Text. Go to Preferences --> Key Bindings and enter this:
+```
+[
+	{ 
+	   	"keys": ["super+b"], 
+	    "command": "insert_snippet", 
+	    "args": {"contents": "<b>${0:$SELECTION}</b>"}
+	}
+]
+```
+
